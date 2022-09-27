@@ -1,38 +1,123 @@
-.App {
+body{
+  /* background-color:rgba(128, 128, 128, 0.46); */
+  padding: 0;
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading{
+  width: 100%;
+  height: 70px;
+  background-color: aliceblue;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
+  /* line-height: 100px; */
+  padding-top: 20px;
+  color: rgba(255, 0, 0, 0.451);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card{
+  /* border: 1px solid #000; */
+  /* width: 40%; */
+  border-radius: 10px;
+  box-shadow: 5px 10px 10px rgba(207, 24, 11, 0.378);
+  /* position: relative; */
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.btn{
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: red;
+  width:10rem;
+  /* margin: 0 auto; */
+}
+.btn:hover{
+  background-color: skyblue;
+}
+.imgg img{
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+/* 
+.flex_prop{
+  margin: auto;
+  border: 1px solid #000;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-grow: 1;
+  flex-direction: row;
+  gap: 2rem;
+} */
+
+/* ============================================================================ */
+
+.slotMachine{
+  width: 30%;
+  min-height: 40rem;
+  border: 1px solid #000;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+.innerblocks{
+  width: 100%;
+  /* border-bottom: 1px solid #000; */
+  /* padding: 20px; */
+  box-sizing: border-box;
+  font-size: 1.5rem;
+}
+
+.time{
+  margin-top: 15rem;
+  font-size: 10rem;
+}
+.clock_btn{
+  width: 20rem;
+  height: 6rem;
+  padding: 1.4rem;
+  border-radius: 20px;
+  border: none;
+  transition: all 400ms ease;
+  background-color: blueviolet;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 48%, rgba(0,212,255,1) 100%);
+  font-size: 2rem;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.clock_btn:hover{
+  background:none;
+  background-color: rgba(42, 63, 165, 0.66);
+  color: black;
+  border-bottom: 2px solid skyblue;
+  box-shadow: 5px 5px 5px skyblue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clock_btn2{
+  margin-top: 3%;
+}
+input{
+  display: block;
+  padding: 1rem;
+  width: 60%;
+  margin: 0 auto;
+  border-radius: 5px;
+  border: none;
+  border-bottom: 5px solid blueviolet;
+  text-align: center;
+  font-size: 1.3rem;
+}
+h1{
+  padding: 0%;
+  margin: 0;
+  /* padding-bottom: 5%; */
+  color: white;
+  font-size: 6rem;
+}
+.MidBox{
+  /* border: 1px solid #000; */
+  /* margin-top: 20%; */padding-top: 200px;
+  background-color:rgba(0, 0, 255, 0.335);
+  height: 100vh;
+}
+.emailP{
+  color: aliceblue;
+  font-size: 2rem;
 }

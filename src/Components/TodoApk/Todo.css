@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jost", sans-serif;
+}
+
+body {
+    background: #f3f2ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Jost", sans-serif;
+}
+
+html {
+    font-size: 100%;
+    height: 100%;
+}
+
+html {
+    background: #eee;
+}
+
+.box {
+    width: 30vw;
+    height: 60vh;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 3rem rgba(0, 0, 0, 0.2);
+    background: #a5bbdd;
+    position: relative;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
+    min-width: 20rem;
+    min-height: 35rem;
+}
+
+.heading{
+    text-align: center;
+    background-color: rgba(0, 0, 255, 0.434);
+    color: #a5bbdd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.askList{
+    width: 70%;
+    margin-left:7%;
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid rgb(22, 111, 236);
+    border-radius: 5px;
+    background-color:aliceblue;
+    font-size: 1.2rem;
+}
+
+.fa-plus-circle{
+    font-size: 2.9rem;
+    position: relative;
+    top: 10px;
+    /* border: 1px solid #000; */
+}
+.fa-plus-circle:hover{
+    color: rgb(31, 240, 94);
+}
+li{
+    position: relative;
+}
+.fa-window-close{
+    font-size: 1.3rem;
+    position: absolute;
+    top: 13px;
+    left: 55px;
+}
+.fa-window-close:hover{
+    color: red;
+}
+.portion{
+    margin-bottom: 50px;
+}
+.list{
+    /* margin-top: 50px; */
+    text-align: center;
+    font-size: 2rem;
+}

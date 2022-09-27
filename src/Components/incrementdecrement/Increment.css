@@ -1,0 +1,48 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    color: aliceblue;
+}
+.MainBox{
+    width: 100vw;
+    height: 100vh;
+    background-color:rgba(172, 255, 47, 0.688);
+    border: 1px solid #000;
+}
+h1{
+    margin: 0%;
+    padding: 0%;
+}
+
+.box{
+    width: 40vw;
+    height: 30vh;
+    /* border: 5px solid #000; */
+    background-color: rgba(128, 128, 128, 0.771);
+    border-radius: 10px;
+    margin: 200px auto;
+    box-shadow: 5px 10px 10px gray;
+}
+
+.head{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 5rem;
+    background-color: rgba(0, 0, 255, 0.421);
+}
+#primebtn{
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    /* background-color: rgba(172, 255, 47, 0.674); */
+    background-color: aliceblue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 40px;
+    color: green;
+    /* border:5px solid #000; */
+}
+#primebtn:hover{
+    background-color: rgba(0, 0, 255, 0.193);
+    color: #000;
+}
