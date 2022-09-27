@@ -1,4 +1,5 @@
 import React, {useState} from 'react';
+import List from './List';
 // import List from './List';
 import './todo.css';
 
@@ -16,6 +17,15 @@ export default function ToDo() {
         })
         setstate("");
     }
+    const itemdel = (id) =>{
+        console.log(id)
+        console.log('first')
+        setadd((previousVal) => {
+          return previousVal.filter((delVal, index) => {
+            return index !== id;
+          });
+        });
+    }
   return (
     <div className="outer">
       <div className="todoapp">
@@ -32,12 +42,14 @@ export default function ToDo() {
           </span>
         </div>
         <ul>
-          {add.map((currVal) => {
+          {add.map((currVal,index) => {
             return (
-              <li>
-                <i className="fas fa-window-close"></i>
-                {currVal}
-              </li>
+              <List
+                key={index}
+                id={index}
+                value={currVal}
+                deleteTask={itemdel}
+              />
             );
           })}
           {/* <li><i class="fas fa-window-close"></i>{add}</li> */}
